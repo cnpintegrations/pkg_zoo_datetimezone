@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+  <name>Zoo Filter Timezone</name>
+  <author>500Web.gr</author>
+	<creationDate>Apr 2013</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@500web.gr</authorEmail>
+	<authorUrl>www.500web.gr</authorUrl>
+	<version>1.0.2</version>
+    <description>Timezone Zoo Filter Timezone For Every City/Timezone In the World!</description>
+  <files>
+    <folder>elements</folder>
+	<folder>css</folder>
+    <folder>js</folder>
+    <folder>tmpl</folder>
+    <filename module="mod_zoo_filtertimezone">mod_zoo_filtertimezone.php</filename>
+	<filename>helper.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_zoo_filtertimezone.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_zoo_filtertimezone.sys.ini</language>
+	</languages>
+  <config>
+    <fields name="params">
+
+    <fieldset name="basic" addfieldpath="/modules/mod_zoo_filtertimezone/elements">
+      
+    <field name="color" type="colorpicker" 
+		default=""
+		id="picker_Color"
+		previewid="preview_Color"
+		label="MOD_ZOO_FILTERTIMEZONE_LABEL_COLOR"
+		description="MOD_ZOO_FILTERTIMEZONE_LABEL_DESCRIPTION_COLOR" 
+	/>
+	<field
+		name="size"
+		type="text"
+		default="30px"
+		label="MOD_ZOO_FILTERTIMEZONE_LABEL_SIZE"
+		description="MOD_ZOO_FILTERTIMEZONE_LABEL_DESCRIPTION_SIZE"/>
+	
+ 
+	<field
+		name="select_width"
+		type="text"
+		default="180px"
+		label="MOD_ZOO_FILTERTIMEZONE_LABEL_SELECT_WIDTH"
+		description="MOD_ZOO_FILTERTIMEZONE_LABEL_DESCRIPTION_SELECT_WIDTH"/>
+	
+    </fieldset>
+	<fieldset
+		name="advanced">
+
+		<field
+			name="layout"
+			type="modulelayout"
+			label="JFIELD_ALT_LAYOUT_LABEL"
+			description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+		<field
+			name="moduleclass_sfx"
+			type="text"
+                        default="res_filter_zoo"
+			label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+			description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+		<field
+			name="cache"
+			type="list"
+			default="1"
+			label="COM_MODULES_FIELD_CACHING_LABEL"
+			description="COM_MODULES_FIELD_CACHING_DESC">
+			<option
+				value="1">JGLOBAL_USE_GLOBAL</option>
+			<option
+				value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+		</field>
+
+		<field
+			name="cache_time"
+			type="text"
+			default="900"
+			label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+			description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+		<field
+			name="cachemode"
+			type="hidden"
+			default="static">
+			<option
+				value="static"></option>
+		</field>
+	</fieldset>
+    </fields>
+  </config>
+  <updateservers>
+        <server type="extension" name="zoo_filtertimezone" priority="1">http://www.500web.gr/updates/zoo_filtertimezone_update.xml</server>
+</updateservers>
+</extension>

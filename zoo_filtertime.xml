@@ -1,0 +1,19 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+ <extension type="package" version="2.5" method="upgrade">
+    <name>zoo_filtertime</name>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <creationDate>21.12.2013</creationDate>
+    <packagename>zoo_filtertime</packagename>
+    <url>http://www.cnpintegrations.com</url>
+    <author>Chris Nielsen</author>
+    <authorEmail>chris@cnpcreative.com</authorEmail>
+    <authorUrl>http://www.cnpintegrations.com</authorUrl>
+    <copyright>@ant_xml_copyright@</copyright>
+    <license>GNU/GPL</license>
+    <version>j30_0.1.0</version>
+    <description>Example package to combine multiple extensions</description>
+    <files folder="packages">
+      <file type="module" id="filtertime" client="site">mod_zoo_filtertime.zip</file>
+      <file type="module" id="filtertimezone" client="site">mod_zoo_filtertimezone.zip</file>
+    </files>
+ </extension>

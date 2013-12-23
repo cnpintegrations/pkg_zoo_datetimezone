@@ -1,0 +1,80 @@
+/**
+ * @version     1.0.0
+ * @package     mod_zoo_filtertimezone css
+ * @copyright   Copyright (C) 2012. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @author      Andreas Dionysopoulos & SIA OE <info@vamjoo.com> - http://www.vamjoo.com
+ */
+ 
+.res_filter_zoo {
+    background-color: #185AA6 !important;
+    left: -46px !important;
+    margin-top: 50px !important;
+    top: 50px !important;
+    width: 640px !important;
+    border: 0 none !important;
+    padding: 8px 0 0 !important;
+   /*
+    background-color: #185AA6 !important;
+    left: -46px !important;
+    margin-top: 50px !important;
+    top: 50px !important;
+    width: 641px !important;*/
+}
+
+.res_filter_zoo #time_filter_links {
+    color: #FFFFFF !important;
+    display: block !important;
+    float: left !important;
+    margin-bottom: 0 !important;
+    margin-left: 9px !important;
+    margin-top: -45px !important;
+    position: relative !important;
+    top: 0 !important;
+    width: 500px !important;
+    z-index: 100 !important;
+}
+
+.res_filter_zoo #worldzoo_filtertimezonens {
+    float: right !important;
+    margin-left: -5px !important;
+    margin-top: -47px !important;
+    padding-top: 5px !important;
+    top: 0 !important;
+    width: 130px !important;
+}
+
+.res_filter_zoo .uk-panel-box {
+    background: none repeat scroll 0 0 #185AA6 !important;
+   border: 0 none !important;
+    margin-top: 0 !important;
+    padding: 0 25px 13px !important;
+    top: 0 !important;
+}
+ 
+.zoo_filtertimezone_timezone {
+    background: none repeat scroll 0 0 #185AA6;
+    border: medium none;
+    color: #FFFFFF !important;
+    padding: 0 !important;
+    height: 0;
+    left: -48px;
+    left: -48px; 
+    width: 0px;
+    border-width: 0 !important;
+}
+
+#worldzoo_filtertimezone {
+	font-weight:bold;
+}
+#worldzoo_filtertimezone{
+	padding-top:10px;
+	font-weight:bold;
+}
+#zoo_filtertimezone_date{
+	display:block;
+	padding-bottom:10px;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+}

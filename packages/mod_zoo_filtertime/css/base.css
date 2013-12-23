@@ -1,0 +1,23 @@
+/**
+ * @version     1.0.0
+ * @package     mod_zoo_filtertime css
+ * @copyright   Copyright (C) 2012. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @author      Andreas Dionysopoulos & SIA OE <info@vamjoo.com> - http://www.vamjoo.com
+ */
+
+
+#worldzoo_filtertime {
+	font-weight:bold;
+}
+#worldzoo_filtertimes{
+	padding-top:10px;
+	font-weight:bold;
+}
+#zoo_filtertime_date{
+	display:block;
+	padding-bottom:10px;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+}
